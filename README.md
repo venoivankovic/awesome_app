@@ -66,34 +66,30 @@ Follow these instructions to use the project (tested on my machine, Ubuntu 18.04
    ```
    ./startFabric.sh
    ```
+9. Once this has finished cd into the apiserver directory:
+
+   ```
+   cd apiserver
+   ```
+   Then run the setupCommands.sh script. This will register 3 providers, 3 customers and 5 witnesses on the DApp. You can edit this file as you wish.
    
-Auction Demo:
-    
-    To illustrate the web app let's examine a possible scenario. 
-    First, a provider submits an auction.
-    
-    ![1auction](https://user-images.githubusercontent.com/35835812/138025561-6b23b276-a226-4b55-a752-1631f5f8cec6.png)
-    
-    The provider can see the auction they submitted in their my auctions page.
-    
-    ![2auction](https://user-images.githubusercontent.com/35835812/138027992-6e644bc8-2e53-4e76-96ed-4d525845d709.png)
-
-   They can click on the auction and inspect it more closely.
+   ```
+   ./setupCommands.sh
+   ```
+   After this you can run the apiserver.js file. This will start the API server on port 8080.
    
-   ![3auction](https://user-images.githubusercontent.com/35835812/138028045-e93dd8e7-4796-474d-8ae5-495aec54a13d.png)
+   ```
+   node apiserver.js
+   ```
+ 10. Then simply start the gooey component, here it is on port 8081, choose any free port.
 
-   A bidding customer "bidder1" sees the auction in their browse auctions page.
-    ![4auction](https://user-images.githubusercontent.com/35835812/138028872-20b8dbac-c9d4-496d-9e2d-14da07379014.png)
-
-   They submit a bid of 90€.
-    
-![5auction](https://user-images.githubusercontent.com/35835812/138028916-024225da-2290-47ec-9626-f9f7c7f28160.png)
-
-   Another customer called "customer2" submits a bid and "bidder1" and "customer2" enter a bidding war for the service. The provider can see this and decides that the highest bid of 120€ is good, so they end the auction.
-        
-![7auction](https://user-images.githubusercontent.com/35835812/138028943-f75ca5de-6493-493b-a5d3-70d16a79bb05.png)
-
-   Then the winning bidder and provider can see the generated SLA.
-  
-  ![10auction](https://user-images.githubusercontent.com/35835812/138028754-8d929d47-c2d0-478a-b0f3-55d0832050fb.png)
+   ```
+   cd awesome_webapp
+   ``` 
+   ```
+   node app 8081
+   ```
+ 11. To use the DApp navigate to http://localhost:8081/. For each user open a new tab.
+ 
+   
    
