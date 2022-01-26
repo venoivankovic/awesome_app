@@ -39,8 +39,28 @@ Follow these instructions to use the project (tested on my machine, Ubuntu 18.04
    ```
    cd awesome
    ```
+6. Change into the apiserver directory:
+
+   ```
+   cd apiserver
+   ```
    
-6. Run script startFabric.sh:
+7. From here you install the node dependencies, run command:
+
+   ```
+   npm install
+   ```
+   Repeat this with awesome_webapp directory:
+   
+   ```
+   cd awesome_webapp
+   ```
+   
+   ```
+   npm install
+   ```
+   
+8. Run script startFabric.sh from top level awesome_app directory:
 
    ```
    ./startFabric.sh
