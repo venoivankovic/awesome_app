@@ -32,7 +32,7 @@ Follow these instructions to use the project (tested on my machine, Ubuntu 18.04
   
   * docker - Should already be installed from step 2.
 
-4. Clone this repository https://github.com/venoivankovic/awesome into the Fabric samples folder.
+4. Clone this repository https://github.com/venoivankovic/awesome_app into the Fabric samples folder.
 
 5. Change directory to the awesome directory you cloned into the Fabric samples folder:
 
