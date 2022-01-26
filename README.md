@@ -81,7 +81,7 @@ Follow these instructions to use the project (tested on my machine, Ubuntu 18.04
    ```
    node apiserver.js
    ```
- 10. Then simply start the gooey component, here it is on port 8081, choose any free port.
+ 10. Then simply start the gui component, here it is on port 8081, choose any free port.
 
    ```
    cd awesome_webapp
