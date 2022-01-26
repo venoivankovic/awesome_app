@@ -90,6 +90,8 @@ Follow these instructions to use the project (tested on my machine, Ubuntu 18.04
    node app 8081
    ```
  11. To use the DApp navigate to http://localhost:8081/. For each user open a new tab.
+
+      Video link: https://www.youtube.com/watch?v=0ZoKuHUTroQ
  
    
    
